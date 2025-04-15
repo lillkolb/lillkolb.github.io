@@ -12,7 +12,8 @@ Slighty sad and confused after being ghosted by 2 different machines, the studen
 After running into the exact same problem a second time, the student decides to try something different.  
 
 On the next attempt it was found that when installing Docker Desktop onto the machine, the user would be prompted to logout of the machine
-to finish the installation. But this was the trap! The user actually had to call `shutdown /r` from the terminal instead. 
+to finish the installation. But this was the trap! The user actually had to call `shutdown /r` from the terminal instead.  
+
 After finding the issue, the student felt happy that they were able to get things working. But alas, precious hours were wasted, 
 and the student worries for the future problems they will face in the course...
 
