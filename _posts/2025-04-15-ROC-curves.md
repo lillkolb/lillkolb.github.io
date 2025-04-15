@@ -4,7 +4,7 @@
 
 ROC (Receiving Operating Characteristic) curves are used to evaluate binary classification models (i.e models where the machine is required to asnwer a "yes" or "no" question). 
 ![image](https://github.com/user-attachments/assets/e5a07f69-68fe-4409-bf52-756d40f73105)
-ref: [links](https://spotintelligence.com/2024/06/17/roc-auc-curve-in-machine-learning/)
+ref: [link for image](https://spotintelligence.com/2024/06/17/roc-auc-curve-in-machine-learning/)
 
 
 
@@ -30,6 +30,6 @@ FPR = $\frac{False Positives}{(False Positives + True Negatives)}$
 We aim to have a samller false positive rate. 
 
 
-##### Links you should check out:  
-[links](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/)  
+### Links you should check out:  
+[Machine learning mastery](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/)  
 
