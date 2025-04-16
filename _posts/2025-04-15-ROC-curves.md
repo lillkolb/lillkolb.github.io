@@ -46,7 +46,7 @@ scores_array - an array that stores the score for each input from the machine
 
 e.g suppose we want our machine to evaluate whether an image colour is red or not red. We are given and input order of r-g-b-b-r-r-g.  
 Then true_values_array = \[1 0 0 0 1 1 0\]  
-and scores_array = \[0.78 0.45 0.34 0.31 0.67 0.82 0.53\] (example scores)  
+and scores_array = \[0.78 0.45 0.34 0.31 0.67 0.82 0.53\] (example scores, you should be getting these from your models, the output scores of each input)  
 
 
 **Example code:**  
