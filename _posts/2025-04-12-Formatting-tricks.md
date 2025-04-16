@@ -8,6 +8,12 @@ Links -> `[link descriptor](link_url)`
 
 Use a backslash \ when trying to keep an element as plain text  
 
+To create a table of contents:  
+```
+1. TOC
+{:toc}
+```  
+
 ## Handy Math
 
 $$\frac{a}{b}$$ -> `$$\frac{a}{b}$$`  
