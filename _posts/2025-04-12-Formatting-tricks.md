@@ -6,7 +6,7 @@ Large code blocks use ``` this will go over multiple lines
 
 Links -> `[link descriptor](link_url)`
 
-
+Use a backslash \ when trying to keep an element as plain text  
 
 ## Handy Math
 
