@@ -1,5 +1,8 @@
 # ROC curves  
 
+1. TOC
+{:toc}
+
 ## What is an ROC curve?  
 
 ROC (Receiving Operating Characteristic) curves are used to evaluate binary classification models (i.e models where the machine is required to asnwer a "yes" or "no" question). 
