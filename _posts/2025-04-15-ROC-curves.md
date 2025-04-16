@@ -51,13 +51,13 @@ and scores_array = \[0.78 0.45 0.34 0.31 0.67 0.82 0.53\] (example scores)
 
 **Example code:**  
 ```
-    fpr, tpr, thresholds = roc_curve(true_values_array, scores_array)  
-    plt.plot(fpr, tpr)  
-    plt.title(template_filename)  
-    plt.xlabel('False Positive Rate')  
-    plt.ylabel('True Positive Rate')  
-    plt.show()  
-    print(f'AUC score: {roc_auc_score(true_values_array, scores_array)}')  
+fpr, tpr, thresholds = roc_curve(true_values_array, scores_array)  
+plt.plot(fpr, tpr)  
+plt.title(template_filename)  
+plt.xlabel('False Positive Rate')  
+plt.ylabel('True Positive Rate')  
+plt.show()  
+print(f'AUC score: {roc_auc_score(true_values_array, scores_array)}')  
 ```
 
 
