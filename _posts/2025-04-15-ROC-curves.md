@@ -37,7 +37,8 @@ We aim to have a samller false positive rate.
 
 In python, we can import the sklearn.metrics module (with `from sklearn.metrics import roc_auc_score, roc_curve`) to help us plot the 
 curve. (We will also use numpy and matplotlib.pyplot libraries)  
-**roc_curve** `fpr, tpr, thresholds = roc_curve(true_values_array, scores_array)`  
+
+In the code below:  
 fpr - an array of false positive rate values  
 tpr - an array of true positive rate values  
 thresholds - an array of thresholds  
