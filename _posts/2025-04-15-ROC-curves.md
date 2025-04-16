@@ -6,7 +6,10 @@ ROC (Receiving Operating Characteristic) curves are used to evaluate binary clas
 ![image](https://github.com/user-attachments/assets/e5a07f69-68fe-4409-bf52-756d40f73105)
 ref: [link for image](https://spotintelligence.com/2024/06/17/roc-auc-curve-in-machine-learning/)
 
-
+An important aspect of the ROC curve is the **Area Under Curve (AUC)**. As we can see from the image above, the better the performance of 
+the model, the more curved it is to the top left corner of the graph. As the AUC directly corresponds to the bend of the curve, we can 
+essentially numerically evaluate the model, with larger AUC values suggesting a more effective model. Furthermore, if the AUC value is 
+less than 0.5, it suggests that the model is not effective at all, and is no better than random guessing. 
 
 ## Distinguishing between TP, TN, FP, FN  
 
