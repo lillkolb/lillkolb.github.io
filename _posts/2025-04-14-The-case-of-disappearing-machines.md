@@ -17,4 +17,8 @@ to finish the installation. But this was the trap! The user actually had to call
 After finding the issue, the student felt happy that they were able to get things working. But alas, precious hours were wasted, 
 and the student worries for the future problems they will face in the course...
 
-*The end*
+## Chapter 2 - Woe is still me  
+The student once again face the problem, even when calling `shutdown /r`  
+
+![image](https://github.com/user-attachments/assets/c96229e9-7aa0-43f1-b641-c0ec5e18d9de)
+[image ref](https://www.kapwing.com/explore/crying-cat-meme-template)  
