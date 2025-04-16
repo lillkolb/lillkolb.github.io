@@ -17,7 +17,7 @@ $$\sum_{i=1}^{10} t_i$$ -> `$$\sum_{i=1}^{10} t_i$$`
 $$\int_0^\infty \mathrm{e}^{-x},\mathrm{d}x$$ -> `$$\int_0^\infty \mathrm{e}^{-x},\mathrm{d}x$$`  
 $$\pi$$ -> `$$\pi$$`  
 $$\theta$$ -> `$$\theta$$`  
-$$\alpha$$ -> `$$\alpha$$`
+$$\alpha$$ -> `$$\alpha$$`  
 $$\beta$$ -> `$$\beta$$`  
 
 
