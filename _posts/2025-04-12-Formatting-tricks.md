@@ -2,7 +2,7 @@
 
 new line -> 2 spaces at end of line  
 
-Large cide blocks use ``` this will go ovver multiple lines  
+Large cide blocks use ``` this will go over multiple lines  
 
 Links -> `[link descriptor](link_url)`
 
