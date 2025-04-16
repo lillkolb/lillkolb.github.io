@@ -30,7 +30,33 @@ We aim to have a larger true positive rate.
 
 To calculate the **False Positive Rate** we use the following equation:  
 FPR = $\frac{False Positives}{(False Positives + True Negatives)}$  
-We aim to have a samller false positive rate. 
+We aim to have a samller false positive rate.  
+
+
+## Creating an ROC curve in python
+
+In python, we can import the sklearn.metrics module (with `from sklearn.metrics import roc_auc_score, roc_curve`) to help us plot the 
+curve. (We will also use numpy and matplotlib.pyplot libraries)  
+**roc_curve** `fpr, tpr, thresholds = roc_curve(true_values_array, scores_array)`  
+fpr - an array of false positive rate values  
+tpr - an array of true positive rate values  
+thresholds - an array of thresholds  
+true_values_array - an array which indicates (with 1's and 0's) whether the input at the position should evaluate to true or false  
+scores_array - an array that stores the score for each input from the machine  
+
+e.g suppose we want our machine to evaluate whether an image colour is red or not red. We are given and input order of r-g-b-b-r-r-g.  
+Then true_values_array = \[1 0 0 0 1 1 0\]  
+and scores_array = \[0.78 0.45 0.34 0.31 0.67 0.82 0.53\] (example scores)  
+
+
+**Example code:**  
+`fpr, tpr, thresholds = roc_curve(true_values_array, scores_array)  
+plt.plot(fpr, tpr)  
+plt.title(template_filename)  
+plt.xlabel('False Positive Rate')  
+plt.ylabel('True Positive Rate')  
+plt.show()  
+print(f'AUC score: {roc_auc_score(true_values_array, scores_array)}')  `
 
 
 ### Links you should check out:  
