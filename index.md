@@ -2,5 +2,6 @@
 Hello and welcome to my deep learning blog!  
 Check out some of my posts!  
 
-![Image of fast.ai logo](images/logo.png)
+![image](https://github.com/user-attachments/assets/ba099dad-779e-47b0-947e-e8adfb547bd6)  
+[image reference](https://www.dreamstime.com/photos-images/welcome-funny.html)
 
